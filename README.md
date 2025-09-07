@@ -1,6 +1,6 @@
 # Visual Novel Horizon Blog
 
-![Preview Image](https://raw.githubusercontent.com/VN-Horizon/blog/main/src/content/spec/about/images/poster.png)
+![Preview Image](https://raw.githubusercontent.com/VN-Horizon/blog/refs/heads/master/src/content/spec/about/images/poster.png)
 
 A static blog built with [Astro](https://astro.build) and [Fuwari](https://github.com/saicaca/fuwari).
 
