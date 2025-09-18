@@ -103,8 +103,13 @@ function updateSidebarState(visible) {
         sidebarContent.style.opacity = '1';
         sidebarContent.style.transform = 'translateX(0)';
         sidebarContent.style.pointerEvents = 'auto';
-        sidebar.style.width = '17.5rem';
-        sidebar.style.minWidth = '17.5rem';
+        if(window.innerWidth > 1024) {
+            sidebar.style.width = '17.5rem';
+            sidebar.style.minWidth = '17.5rem';
+        } else {
+            sidebar.style.width = '100%';
+            sidebar.style.minWidth = '100%';
+        }
         mainGrid.style.gridTemplateColumns = '17.5rem auto';
         mainGrid.style.gap = '1rem';
         
